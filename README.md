@@ -1,8 +1,9 @@
-📧 Spam Email Classifier (Local Streamlit App)
+📧 SPAM EMAIL CLASSIFIER (Local Streamlit App)
 
 This is a simple, local Spam Email Classifier built using Machine Learning, NLP, and a user interface powered by Streamlit. It allows users to input email content and instantly see whether it's Spam 🚫 or Not Spam ✅.
 
 🔍 Features
+
 Easy-to-use interface with Streamlit
 
 Classifies any message/email content
@@ -14,6 +15,7 @@ Text preprocessing using NLTK (stopwords removal, lowercase, etc.)
 Works entirely on your local machine — no internet needed for predictions
 
 🛠️ Tech Stack
+
 Python 3.x
 
 Streamlit
@@ -54,18 +56,29 @@ Prediction:
 📁 Project Structure
 
 spam_classifier_app/
+
 ├── app.py
+
 ├── train_model.py
+
 ├── model.pkl
+
 ├── vectorizer.pkl
+
 ├── requirements.txt
+
 ├── README.md
+
 ├── archive/spam.csv
 
 🌐 Deploying Online (Streamlit Cloud)
+
 Push your complete project to a GitHub repository.
+
 Go to https://streamlit.io/cloud and sign in with your GitHub account.
+
 Click “New App”, choose your repo, and set the main file path as app.py.
+
 Click Deploy. That’s it — your app will be live and sharable! ✅
 
 Make sure these files are committed to GitHub:
@@ -85,6 +98,8 @@ README.md
 archive/spam.csv
 
 👩‍💻 Author
+
 Bojja Sanjana
+
 A self-driven Python and ML enthusiast ✨
 
