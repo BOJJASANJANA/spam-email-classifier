@@ -1,4 +1,5 @@
 📧 Spam Email Classifier (Local Streamlit App)
+
 This is a simple, local Spam Email Classifier built using Machine Learning, NLP, and a user interface powered by Streamlit. It allows users to input email content and instantly see whether it's Spam 🚫 or Not Spam ✅.
 
 🔍 Features
