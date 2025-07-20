@@ -1,60 +1,57 @@
-📧 Spam Email Classifier using Streamlit and Machine Learning
-This is a simple and interactive spam detection system built using Python, Machine Learning, and Streamlit. The app classifies email or message content as Spam or Not Spam based on the text input provided.
+📧 Spam Email Classifier (Local Streamlit App)
+This is a simple, local Spam Email Classifier built using Machine Learning, NLP, and a user interface powered by Streamlit. It allows users to input email content and instantly see whether it's Spam 🚫 or Not Spam ✅.
 
 🔍 Features
-🔹 User-friendly interface built with Streamlit
-🔹 Paste any email/message text to test
-🔹 Instant prediction: 🚫 Spam or ✅ Not Spam
-🔹 Built with a Naive Bayes classifier
-🔹 Text preprocessing using NLTK
-🔹 Lightweight and fast
+Easy-to-use interface with Streamlit
+
+Classifies any message/email content
+
+Machine learning model trained using Naive Bayes
+
+Text preprocessing using NLTK (stopwords removal, lowercase, etc.)
+
+Works entirely on your local machine — no internet needed for predictions
+
 🛠️ Tech Stack
-Python
+Python 3.x
+
 Streamlit
-Scikit-learn
+
+scikit-learn
+
 NLTK
+
 Pandas
+
 Joblib
-🚀 How to Run Locally
-1. Clone the Repository
+🚀 How to Run the App Locally
+Follow these steps on your computer
+
+1. Clone the Project
+bash
 git clone https://github.com/your-username/spam-email-classifier.git
 cd spam-email-classifier
-2. Create Virtual Environment (Optional but Recommended)
+2. Set up a Virtual Environment (optional but recommended)
 bash
-Copy
-Edit
 python -m venv venv
 venv\Scripts\activate     # On Windows
-3. Install Dependencies
+3. Install Required Packages
 bash
-Copy
-Edit
 pip install -r requirements.txt
 4. Train the Model
 bash
-Copy
-Edit
 python train_model.py
-5. Run the Streamlit App
+This will create model.pkl and vectorizer.pkl in your folder.
+5. Run the App
 bash
-Copy
-Edit
 streamlit run app.py
-✅ Example
+✅ Example Use
 Input Text:
-
-css
-Copy
-Edit
-Congratulations! You have won a free vacation. Click the link to claim your prize!
+You've won a free iPhone! Click here to claim now.
 Prediction:
-
-Copy
-Edit
 🚫 Spam
-📦 Project Structure
-Copy
-Edit
+📁 Project Structure
+
 spam_classifier_app/
 ├── app.py
 ├── train_model.py
@@ -62,25 +59,31 @@ spam_classifier_app/
 ├── vectorizer.pkl
 ├── requirements.txt
 ├── README.md
-🌐 Deploying Online
-You can deploy this app using Streamlit Cloud by connecting your GitHub repository.
+├── archive/spam.csv
+
+🌐 Deploying Online (Streamlit Cloud)
+Push your complete project to a GitHub repository.
+Go to https://streamlit.io/cloud and sign in with your GitHub account.
+Click “New App”, choose your repo, and set the main file path as app.py.
+Click Deploy. That’s it — your app will be live and sharable! ✅
+
+Make sure these files are committed to GitHub:
+
+app.py
+
+train_model.py
+
+model.pkl
+
+vectorizer.pkl
+
+requirements.txt
+
+README.md
+
+archive/spam.csv
 
 👩‍💻 Author
 Bojja Sanjana
 A self-driven Python and ML enthusiast ✨
 
-
-
-
-### 3. Save It
-
-- Save the file in the root of your project folder.
-
----
-
-### 4. Push to GitHub
-
-```bash
-git add README.md
-git commit -m "Added project README"
-git push
